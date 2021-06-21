@@ -1,0 +1,83 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+
+
+header{/* menu fixo */
+    position: fixed;
+    left:0%;
+    top: 0%;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
+    background: #009393;
+}
+header li{ /* alinhamento e espaçamento dos ítens do menu */
+    display: inline-block;
+    margin: 0 10px;
+}
+header a{/* cor, exclusão de sublinha e tamanho da fonte */
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+    font-weight: 1200;
+}
+.cidade{/* espaçamento do primeiro conteúdo do menu principal */
+    margin-top: 30px;
+}
+
+body{/* fonte dos caractéres do conteúdo do site */
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder ;
+}
+#container {/* div container para aplicar responsividade */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+
+#banner{
+  max-width: 100%;
+  height: 700px;
+  background-image: url("/img/lencois-praca.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+ line-height: 150px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#00585F ;
+    line-height: 100px;
+}
+
+#autoria {
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1em;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+div.wp-logo {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 70px;
+    height: auto;
+  }
+  
+  div.wp-logo img {
+    width: 100%;
+    height: auto;
+  }
+#contato{
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+#contato:hover{
+    width: 80px;
+    cursor: pointer;
+}
